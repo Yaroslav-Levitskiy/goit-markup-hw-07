@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+.container {
+    max-width: 766px;
+}
+ /* ______________BENEFITS_______________ */
+
+.benefits-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-item {
+    row-gap: 24px;
+    column-gap: 72px;
+}
+
+.benefits-head-h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+}
