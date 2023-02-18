@@ -4,6 +4,12 @@
         max-width: 320px;
     }
 
+    /* __________WHAT ARE WE DOING__________ */
+
+/* .sectionWARW {
+    display: none;
+} */
+
 }
 
 @media screen and (min-width:480px) {
@@ -11,4 +17,9 @@
         max-width: 426px;
     }
 
+
+/* __________WHAT ARE WE DOING__________ */
+.sectionWARW {
+    display: none;
+}
 }

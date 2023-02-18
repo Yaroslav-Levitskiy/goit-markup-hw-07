@@ -34,4 +34,11 @@
 .benefits-description {
     line-height: 1.5;
 }
+
+/* __________WHAT ARE WE DOING__________ */
+
+.sectionWAWD {
+    display: block;
+}
+
 }
