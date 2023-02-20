@@ -189,6 +189,8 @@ p {
 .menu-open-btn {
   display: block;
   margin-left: auto;
+  background-color: var(--color-WHITE);
+  border: none;
   
 }
 

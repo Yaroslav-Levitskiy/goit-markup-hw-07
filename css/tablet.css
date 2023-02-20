@@ -11,7 +11,8 @@
 }
 
 .contact-list {
-    display: flex;
+    display: block;
+    
 }
 
 .menu-open-btn {
