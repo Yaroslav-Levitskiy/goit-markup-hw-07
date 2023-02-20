@@ -1,25 +1,46 @@
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
 
-@media screen and (min-width:320px) {
-    .container {
-        max-width: 320px;
-    }
+.logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}   
 
-    /* __________WHAT ARE WE DOING__________ */
-
-/* .sectionWARW {
-    display: none;
-} */
-
-}
-
-@media screen and (min-width:480px) {
-    .container {
-        max-width: 426px;
-    }
-
-
-/* __________WHAT ARE WE DOING__________ */
-.sectionWARW {
+.header-list {
     display: none;
 }
+
+.contact-list {
+    display: none;
+}
+
+  /* __________WHAT ARE WE DOING__________ */
+
+  .sectionWARW {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+
+  /* _____________HEADER_____________ */
+
+.header-list {
+    display: none;
+}
+
+.contact-list {
+    display: none;
+}
+
+
+  /* __________WHAT ARE WE DOING__________ */
+  .sectionWARW {
+    display: none;
+  }
 }

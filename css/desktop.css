@@ -1,44 +1,85 @@
 @media screen and (min-width: 1200px) {
-.container {
+  .container {
     max-width: 1200px;
-}
+  }
 
-/* ______________BENEFITS_______________ */
+  /* ___________HERO___________ */
 
-    .benefits-section {
-        padding-top: 120px;
-        padding-bottom: 120px;
+  .hero {
+    background-image: url(../img/hero-dark-bg.png),
+      url(../img/hero-bg-desktop.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../img/hero-dark-bg.png),
+        url(../img/hero-bg-desktop-2x.jpg);
     }
+  }
 
-.background-icon {
+  /* ______________BENEFITS_______________ */
+
+  .benefits-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .background-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.benefits-list {
+  .benefits-list {
     display: flex;
     flex-wrap: nowrap;
     list-style: none;
     gap: 24px;
-}
+  }
 
-.benefits-head-h3 {
+  .benefits-head-h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-}
+  }
 
-.benefits-description {
+  .benefits-description {
     line-height: 1.5;
-}
+  }
 
-/* __________WHAT ARE WE DOING__________ */
+  /* __________WHAT ARE WE DOING__________ */
 
-.sectionWAWD {
+  .sectionWARW {
     display: block;
-}
+  }
 
+  /* ____________OUR TEAM___________ */
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* _______FOOTER________ */
+
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .logo-margin {
+    margin-right: 120px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 80px;
+  }
 }

@@ -31,7 +31,7 @@
   </head>
   <body class="body">
     <!-- _________________HEADER_________________- -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-flex">
         <nav class="header-nav">
           <a class="logo link" href="/webstudio">
@@ -65,19 +65,24 @@
             >
           </li>
         </ul>
+        <button type="button">
+          <svg>
+            <use href="./img/icons.svg#"></use>
+        </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
 
     <!-- _____________HERO_____________ -->
     <main>
-      <!-- <section class="hero section">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button button-hero" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!-- _____________BENEFITS_____________ -->
       <section class="section benefits">
@@ -137,12 +142,13 @@
       </section>
 
       <!-- _______________WHAT ARE WE DOING____________ -->
-      <section class="section sectionWARW ">
+      <section class="section sectionWARW">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="main-image-list">
             <li>
               <img
+                srcset="./img/image-1.jpg 1x, ./img/image-1-2x 2x"
                 src="./img/image-1.jpg"
                 alt="computer"
                 width="360"
@@ -151,6 +157,7 @@
             </li>
             <li>
               <img
+                srcset="./img/image-2.jpg 1x, ./img/image-2-2x 2x"
                 src="./img/image-2.jpg"
                 alt="tel+comp"
                 width="360"
@@ -158,20 +165,32 @@
               />
             </li>
             <li>
-              <img src="./img/image-3.jpg" alt="tel" width="360" height="300" />
+              <img
+                srcset="./img/image-3.jpg 1x, ./img/image-3-2x 2x"
+                src="./img/image-3.jpg"
+                alt="tel"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
       </section>
 
       <!-- _________________OUR TEAM_____________- -->
-      <!-- <section class="team-section section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
 
           <ul class="team-list">
             <li class="team-item">
-              <img src="./img/team-1.jpg" alt="mark" width="264" height="260" />
+              <img
+                srcset="./img/team-1.jpg 1x, ./img/team-1-2x.jpg 2x"
+                src="./img/team-1.jpg"
+                alt="mark"
+                width="264"
+                height="260"
+              />
               <div class="team-wrapper">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-descriptiom">Product Designer</p>
@@ -209,7 +228,13 @@
             </li>
 
             <li class="team-item">
-              <img src="./img/team-2.jpg" alt="tom" width="264" height="260" />
+              <img
+                srcset="./img/team-2.jpg 1x, ./img/team-2-2x.jpg 2x"
+                src="./img/team-2.jpg"
+                alt="tom"
+                width="264"
+                height="260"
+              />
               <div class="team-wrapper">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-descriptiom">Frontend Developer</p>
@@ -248,6 +273,7 @@
 
             <li class="team-item">
               <img
+                srcset="./img/team-3.jpg 1x, ./img/team-3-2x.jpg 2x"
                 src="./img/team-3.jpg"
                 alt="camila"
                 width="264"
@@ -291,6 +317,7 @@
 
             <li class="team-item">
               <img
+                srcset="./img/team-4.jpg 1x, ./img/team-4-2x.jpg 2x"
                 src="./img/team-4.jpg"
                 alt="daniel"
                 width="264"
@@ -333,10 +360,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- ____________CUSTOMERS___________ -->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list">
@@ -384,10 +411,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- ______________FOOTER_______________- -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="logo-margin">
           <a class="logo-footer link" href="/webstudio">
@@ -449,7 +476,7 @@
           </button>
         </form>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- ____________________MODAL______________________ -->
     <div class="backdrop is-hidden" data-modal>

@@ -1,25 +1,56 @@
 @media screen and (min-width: 768px) {
-.container {
+  .container {
     max-width: 766px;
-}
- /* ______________BENEFITS_______________ */
+  }
 
-.benefits-section {
+
+/* _______________HEADER_________________ */
+
+
+
+  /* ____________HERO___________ */
+
+  .hero {
+    background-image: url(../img/hero-dark-bg.png),
+      url(../img/hero-bg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+    background-image: url(../img/hero-dark-bg.png),
+        url(../img/hero-bg-tablet-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ______________BENEFITS_______________ */
+
+  .benefits-section {
     padding-top: 96px;
     padding-bottom: 96px;
-}
+  }
 
-.benefits-list {
+  .benefits-list {
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
-.benefits-item {
+  .benefits-item {
     row-gap: 24px;
     column-gap: 72px;
-}
+  }
 
-.benefits-head-h3 {
+  .benefits-head-h3 {
     display: flex;
     justify-content: flex-start;
     font-weight: 700;
@@ -27,12 +58,55 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-}
+  }
 
-/* __________WHAT ARE WE DOING__________ */
+  /* __________WHAT ARE WE DOING__________ */
 
-.sectionWARW {
+  .sectionWARW {
     display: none;
-}
+  }
 
+  /* ___________OUR TEAM__________ */
+
+  .team-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .team-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  /* ____________FOOTER______________ */
+
+  .logo-margin {
+    margin-right: 24px;
+  }
+
+  .logo-footer {
+    text-align: start;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .subscribe {
+    text-align: start;
+  }
+
+  .subscribe-form-input {
+    width: 264px;
+  }
+
+  .button-subscribe {
+    margin-left: 24px;
+    margin-top: 40px;
+  }
 }
