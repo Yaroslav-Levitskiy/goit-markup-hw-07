@@ -3,6 +3,8 @@
     max-width: 320px;
   }
 
+/* _______________HEADER______________ */
+
 .logo {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -16,11 +18,26 @@
     display: none;
 }
 
+
+
+
+
   /* __________WHAT ARE WE DOING__________ */
 
   .sectionWARW {
     display: none;
   }
+
+/* _____________FOOTER_____________ */
+
+.subscribe-form-input {
+  width: 295px;
+}
+
+.button-subscribe {
+  margin-left: 66px;
+}
+
 }
 
 @media screen and (min-width: 480px) {
@@ -43,4 +60,16 @@
   .sectionWARW {
     display: none;
   }
+
+/* _____________FOOTER_____________ */
+
+.subscribe-form-input {
+  width: 396px;
+}
+
+.button-subscribe {
+  margin-left: 115px;
+}
+
+
 }

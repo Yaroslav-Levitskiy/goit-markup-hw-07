@@ -3,6 +3,21 @@
     max-width: 1200px;
   }
 
+
+/* _______________HEADER_________________ */
+
+.header-list {
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.menu-open-btn {
+  display: none;
+}
+
   /* ___________HERO___________ */
 
   .hero {
@@ -55,6 +70,7 @@
 
   .sectionWARW {
     display: block;
+    padding-top: 0;
   }
 
   /* ____________OUR TEAM___________ */
@@ -69,7 +85,6 @@
   .footer-container {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
   }
 
   .logo-margin {

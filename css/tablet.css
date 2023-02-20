@@ -6,7 +6,17 @@
 
 /* _______________HEADER_________________ */
 
+.header-list {
+    display: flex;
+}
 
+.contact-list {
+    display: flex;
+}
+
+.menu-open-btn {
+  display: none;
+}
 
   /* ____________HERO___________ */
 
@@ -99,6 +109,10 @@
 
   .subscribe {
     text-align: start;
+  }
+
+  .subscribe-form {
+    margin-top: 0;
   }
 
   .subscribe-form-input {
