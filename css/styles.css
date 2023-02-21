@@ -19,7 +19,7 @@
 }
 
 .container {
-  width: 100%;
+  max-width: 428px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -63,8 +63,8 @@ p {
 /* ____________SECTION PADDING___________ */
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 /* _____________HEADER______________ */
@@ -175,7 +175,9 @@ p {
 }
 
 .contact-link {
+  display: block;
   text-decoration: none;
+  font-size: 12px;
   line-height: 1.5;
   color: var(--color-SLATE);
   transition: color var(--animation);
@@ -332,8 +334,8 @@ transition: var(--animation);
 
 .hero {
   text-align: center;
-  padding: 188px 0;
-  height: 600px;
+  padding: 60px 0;
+  height: 320px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -354,11 +356,13 @@ transition: var(--animation);
 .hero-title {
 font-weight: 700;
 font-size: 36px;
+width: 320px;
+margin-left: auto;
+margin-right: auto;
 line-height: 1.1;
 text-align: center;
 margin-bottom: 72px;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: var(--color-WHITE);
 }
 
@@ -386,17 +390,16 @@ color: var(--color-WHITE);
 
 /* ______________BENEFITS_____________ */
 
-.benefits {
+/* .benefits {
   padding-top: 96px;
   padding-bottom: 96px;
-}
+} */
 
 .background-icon {
   display: none;
   width: 264px;
   height: 112px;
   background-color: var(--color-CLOUD);
-  margin-bottom: 8px;
   border-radius: 4px;
 }
 
@@ -415,6 +418,7 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
+margin-top: 8px;
 }
 .benefits-description {
 font-size: 16px;
@@ -565,8 +569,8 @@ letter-spacing: 0.02em;
 /* ___________FOOTER__________ */
 
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background: var(--color-NAVY-BLUE);
 }
 
@@ -593,7 +597,7 @@ letter-spacing: 0.02em;
 
 .logo-margin {
   /* margin-right: 120px; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .logo-web {
@@ -616,6 +620,7 @@ letter-spacing: 0.02em;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 72px;
   letter-spacing: 0.02em;
   color: var(--color-WHITE);
 }
@@ -996,6 +1001,7 @@ letter-spacing: 0.02em;
   margin-right: auto;
   margin-bottom: 24px;
   margin-top: 24px;
+  width: 169px;
   background: var(--color-IRIS);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

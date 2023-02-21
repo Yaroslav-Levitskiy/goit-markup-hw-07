@@ -4,24 +4,30 @@
   }
 
 
-/* _______________HEADER_________________ */
 
-.header-list {
+/* __________SECTION PADDING___________ */
+
+
+
+  /* _______________HEADER_________________ */
+
+  .header-list {
     display: flex;
-}
+  }
 
-.contact-list {
+  .contact-list {
     display: block;
-    
-}
+  }
 
-.menu-open-btn {
-  display: none;
-}
+  .menu-open-btn {
+    display: none;
+  }
 
   /* ____________HERO___________ */
 
   .hero {
+    padding: 120px 0;
+    height: 436px;
     background-image: url(../img/hero-dark-bg.png),
       url(../img/hero-bg-tablet.jpg);
   }
@@ -30,7 +36,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-    background-image: url(../img/hero-dark-bg.png),
+      background-image: url(../img/hero-dark-bg.png),
         url(../img/hero-bg-tablet-2x.jpg);
     }
   }
@@ -41,6 +47,9 @@
     line-height: 1;
     text-align: center;
     margin-bottom: 40px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.02em;
   }
 
@@ -108,12 +117,16 @@
     align-items: flex-start;
   }
 
+  .soc-media-title {
+    margin-top: 0;
+  }
+
   .subscribe {
     text-align: start;
   }
 
   .subscribe-form {
-    margin-top: 0;
+    /* margin-top: 0; */
   }
 
   .subscribe-form-input {
@@ -125,3 +138,5 @@
     margin-top: 40px;
   }
 }
+
+

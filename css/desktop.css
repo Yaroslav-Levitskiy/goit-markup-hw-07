@@ -1,7 +1,14 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1158px;
   }
+
+/* __________SECTION PADDING___________ */
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 /* _______________HEADER_________________ */
@@ -21,9 +28,17 @@
   /* ___________HERO___________ */
 
   .hero {
+    height: 600px;
+    padding: 205px 0;
     background-image: url(../img/hero-dark-bg.png),
       url(../img/hero-bg-desktop.jpg);
   }
+
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -36,9 +51,8 @@
 
   /* ______________BENEFITS_______________ */
 
-  .benefits-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  .benefits {
+    
   }
 
   .background-icon {
@@ -53,6 +67,11 @@
     list-style: none;
     gap: 24px;
   }
+
+.benefits-item {
+  width: 264px;
+}
+
 
   .benefits-head-h3 {
     font-weight: 500;
@@ -82,6 +101,12 @@
 
   /* _______FOOTER________ */
 
+
+  .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  }
+
   .footer-container {
     display: flex;
     align-items: flex-start;
@@ -89,6 +114,10 @@
 
   .logo-margin {
     margin-right: 120px;
+  }
+
+  .soc-media-title {
+    margin-top: 0;
   }
 
   .subscribe-form {
