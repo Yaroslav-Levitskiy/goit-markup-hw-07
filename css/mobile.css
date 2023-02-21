@@ -1,10 +1,4 @@
 @media screen and (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-  
-
-
 
 /* _______________HEADER______________ */
 
@@ -38,15 +32,15 @@
   width: 295px;
 }
 
-.button-subscribe {
+/* .button-subscribe {
   margin-left: 66px;
-}
+} */
 
 
 
-  /* _____________MODA____________ */
+  /* _____________MODAL____________ */
 
-.modal {
+/* .modal {
     width: 353px;
 }
 
@@ -60,7 +54,7 @@
 
 .registration-form-message {
     width: 304px;
-}
+} */
 
 
 
