@@ -177,7 +177,7 @@ p {
 .contact-link {
   display: block;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--color-SLATE);
   transition: color var(--animation);
@@ -356,7 +356,6 @@ transition: var(--animation);
 .hero-title {
 font-weight: 700;
 font-size: 36px;
-width: 320px;
 margin-left: auto;
 margin-right: auto;
 line-height: 1.1;
@@ -523,7 +522,6 @@ letter-spacing: 0.02em;
 /* ____________CUSTOMERS___________ */
 
 
-
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -539,7 +537,7 @@ letter-spacing: 0.02em;
   align-items: flex-start;
   justify-content: center;
   padding: 0px;
-  gap: 24px;
+  gap: 72px 16px;
   margin-top: 72px;
   list-style: none;
 }

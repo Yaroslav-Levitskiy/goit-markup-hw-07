@@ -26,11 +26,21 @@
     display: none;
   }
 
+
+/* ___________CISTOMERS__________ */
+
+.customers-list-item {
+  width: 135px;
+}
+
+
+
 /* _____________FOOTER_____________ */
 
 .subscribe-form-input {
   width: 295px;
 }
+
 
 /* .button-subscribe {
   margin-left: 66px;
@@ -81,6 +91,12 @@
     display: none;
   }
 
+
+.customers-list-item {
+  width: 168px;
+}
+
+
 /* _____________FOOTER_____________ */
 
 .subscribe-form-input {
@@ -88,7 +104,7 @@
 }
 
 .button-subscribe {
-  margin-left: 115px;
+  margin-left: 0;
 }
 
 

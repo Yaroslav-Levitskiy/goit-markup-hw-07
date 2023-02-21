@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
 
@@ -104,6 +104,7 @@
     row-gap: 72px;
   }
 
+
   /* ____________FOOTER______________ */
 
   .logo-margin {
@@ -142,7 +143,11 @@
     margin-top: 40px;
   }
 
+/* __________CUSTOMERS____________ */
 
+.customers-list {
+  gap: 72px 24px
+}
 
   }
 
