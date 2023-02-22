@@ -16,8 +16,19 @@
 }
 
 
+/* ______________MOBILE MENU_____________ */
 
+.mob-soc-list {
+  gap: 28px;
+}
 
+.mobile-menu-link {
+  font-size: 32px;
+}
+
+.mobile-menu-contact-link {
+  font-size: 25px;
+}
 
 
   /* __________WHAT ARE WE DOING__________ */
@@ -27,7 +38,7 @@
   }
 
 
-/* ___________CISTOMERS__________ */
+/* ___________CUSTOMERS__________ */
 
 .customers-list-item {
   width: 135px;
@@ -50,30 +61,24 @@
 
   /* _____________MODAL____________ */
 
-/* .modal {
-    width: 353px;
-}
-
-.registration-form-appeal {
-    font-size: 14px;
+.modal {
+  width: 350px;
 }
 
 .modal-btn {
-    left: 300px;
+  left: 305px;
+}
+
+.registration-form-appeal {
+  font-size: 14px;
 }
 
 .registration-form-message {
-    width: 304px;
-} */
-
-
+  width: 301px;
+}
 
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    max-width: 426px;
-  }
 
   /* _____________HEADER_____________ */
 
@@ -88,20 +93,16 @@
 
   /* __________WHAT ARE WE DOING__________ */
   .sectionWARW {
-    display: none;
+    /* display: none; */
   }
 
-
-.customers-list-item {
-  width: 168px;
-}
 
 
 /* _____________FOOTER_____________ */
 
-.subscribe-form-input {
+/* .subscribe-form-input {
   width: 396px;
-}
+} */
 
 .button-subscribe {
   margin-left: 0;

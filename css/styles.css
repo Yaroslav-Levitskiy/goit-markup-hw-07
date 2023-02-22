@@ -209,13 +209,22 @@ p {
 .mob-menu {
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
   height: 100vh;
   background-color: var(--color-WHITE);
   padding-top: 48px;
   padding-bottom: 48px;
+
+  transform: translateX(100%);
+  transition: var(--animation);
 }
+
+.mob-menu.is-open {
+  transform: translateX(0);
+}
+
 
 .mob-menu > .container {
   height: 100%;

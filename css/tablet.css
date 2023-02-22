@@ -19,6 +19,10 @@
     display: block;
   }
 
+ .contact-link {
+  font-size: 12px;
+ }
+
   .menu-open-btn {
     display: none;
   }
@@ -149,9 +153,29 @@
   gap: 72px 24px
 }
 
+.customers-list-item {
+  width: 168px;
+}
+
+/* __________MODAL_________ */
+
+.modal {
+  width: 392px;
+}
+
+.modal-btn {
+  left: 360px;
+}
+
+.registration-form-appeal {
+  font-size: 16px;
+}
+
+.registration-form-message {
+  width: 344px;
+}
+
+
+
   }
-
-
-
-
 
